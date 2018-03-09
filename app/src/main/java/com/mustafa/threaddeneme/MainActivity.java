@@ -32,16 +32,16 @@ public class MainActivity extends Activity {
         mp[1] = MediaPlayer.create(this, R.raw.electro);
 
 
-        final Button buttonHello = (Button) findViewById(R.id.idpiano);
-        buttonHello.setOnClickListener(new View.OnClickListener() {
+        final Button buttonpiano = (Button) findViewById(R.id.idpiano);
+        buttonpiano.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 managerOfSound(piano);
             }
         });
 
-        final Button buttonGoodBye = (Button) findViewById(R.id.idelectro);
-        buttonGoodBye.setOnClickListener(new View.OnClickListener() {
+        final Button buttonelectro = (Button) findViewById(R.id.idelectro);
+        buttonelectro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 managerOfSound(electro);
